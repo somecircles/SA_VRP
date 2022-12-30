@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Random;
 
@@ -113,4 +114,15 @@ public class test {
 
     }
 
+    @Test
+    public void test2(){
+        int [][] a=new int[10][10];
+        for(int i =0;i<a.length;i++){
+            //Arrays.fill(a[i],0);
+            for(int j=0;j<a[i].length;j++){
+
+                System.out.println(a[i][j]);
+            }
+        }
+    }
 }
